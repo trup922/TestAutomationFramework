@@ -21,7 +21,7 @@ public class ProductsFeatureTest extends BaseTest{
         ProductPage productPage=new ProductPage(driver);
         assertTrue(productPage.isLoaded());
         productPage.Inventory.addRandomItemToCart();
-       assertTrue(productPage.ShoppingCart.hasItems(2), "We added single item to the cart and expected 1 item in cart");
+       assertTrue(productPage.ShoppingCart.hasItems(1), "We added single item to the cart and expected 1 item in cart");
 
     }
 
