@@ -45,6 +45,8 @@
                     <configuration>
                         <includes>
                             <include>AcceptanceTestDrivenAutomationTest.java</include>
+                            <include>ProductsFeatureTest.java</include>
+                            <include>ShoppingCartTest.java</include>
                         </includes>
                     </configuration>
                 </plugin>
